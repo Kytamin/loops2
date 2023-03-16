@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a=+prompt("nhâp chiều rộng")
+    let b=+prompt("nhập chiều dài")
+    for (let i = 0; i <= a; i++) {
+        for (let j = 0; j <=b; j++) {
+            if (i === 0 || j === 0 || i === a || j === b) {
+                document.write("*")
+            } else {
+                document.write("&nbsp&nbsp")
+            }
+        }
+        document.write("<br>")
+    }
+</script>
+</html>
